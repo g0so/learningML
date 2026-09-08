@@ -219,8 +219,8 @@ $$
 
 $$
 \begin{bmatrix}
-a & b \\
-c & d
+a_{11} & a_{12} \\
+a_{21} & a_{22}
 \end{bmatrix}
 $$
 
@@ -258,21 +258,21 @@ $$
 Using matrix multiplication rules, this entire system collapses into a single, elegant equation:
 
 $$
-\underbrace{\begin{bmatrix}
+\begin{bmatrix}
 2 & 3 & 5 \\
 4 & -2 & -7 \\
 9 & 5 & -3
 \end{bmatrix}}_{A}
-\underbrace{\begin{bmatrix}
+\{bmatrix}
 x_1 \\
 x_2 \\
 x_3
 \end{bmatrix}}_{\mathbf{x}} = 
-\underbrace{\begin{bmatrix}
+\{bmatrix}
 1 \\
 8 \\
 2
-\end{bmatrix}}_{\mathbf{b}}
+\end{bmatrix}}_{\mathbf{b}}s
 $$
 
 
