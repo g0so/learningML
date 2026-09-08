@@ -217,8 +217,12 @@ $$
   * If it does not exist, it is called **singular or noninvertible**.
 * **The $2 \times 2$ Case:** For a $2 \times 2$ matrix $A$ represented by:
 
-$$\begin{bmatrix} a & b \\ c & d \end{bmatrix}$$
-
+$$
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+$$
 
 The inverse is found by swapping the diagonal elements, negating the off-diagonal elements, and dividing by $(a_{11}a_{22} - a_{12}a_{21})$:
 
