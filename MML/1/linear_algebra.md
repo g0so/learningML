@@ -5,5 +5,6 @@ What is Linear Algebra? The study of vectors and rules to manipulate these vecto
 1. Geometric
 2. Polynomials
 3. Audio Signals
-4. Elements of $$ R^n $$<br>
+4. Elements of $ R^n $<br>
 
+## System of L
