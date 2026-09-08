@@ -262,7 +262,7 @@ $$
 
 Using matrix multiplication rules, this entire system collapses into a single, elegant equation:
 
-$$
+```math
 \begin{bmatrix}
 2 & 3 & 5 \\
 4 & -2 & -7 \\
@@ -278,7 +278,7 @@ x_3
 8 \\
 2
 \end{bmatrix}_{\mathbf{b}}
-$$
+```
 
 
 
