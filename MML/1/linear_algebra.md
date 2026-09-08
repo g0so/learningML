@@ -227,8 +227,13 @@ $$
 The inverse is found by swapping the diagonal elements, negating the off-diagonal elements, and dividing by $(a_{11}a_{22} - a_{12}a_{21})$:
 
 $$
-A^{-1} = \frac{1}{a_{11}a_{22} - a_{12}a_{21}} \begin{bmatrix} a_{22} & -a_{12} \\ -a_{21} & a_{11} \end{bmatrix}
+A^{-1} = \frac{1}{a_{11}a_{22} - a_{12}a_{21}} 
+\begin{bmatrix} 
+a_{22} & -a_{12} \\ 
+-a_{21} & a_{11} 
+\end{bmatrix}
 $$
+
 
 
 * **Key Insight:** That denominator $(a_{11}a_{22} - a_{12}a_{21})$ is called the **determinant**. If the determinant is $0$, you cannot divide by it, meaning the matrix is singular (has no inverse).
@@ -262,18 +267,19 @@ $$
 2 & 3 & 5 \\
 4 & -2 & -7 \\
 9 & 5 & -3
-\end{bmatrix}}_{A}
-\{bmatrix}
+\end{bmatrix}_{\mathbf{A}}
+\begin{bmatrix}
 x_1 \\
 x_2 \\
 x_3
-\end{bmatrix}}_{\mathbf{x}} = 
-\{bmatrix}
+\end{bmatrix}_{\mathbf{x}} = 
+\begin{bmatrix}
 1 \\
 8 \\
 2
-\end{bmatrix}}_{\mathbf{b}}s
+\end{bmatrix}_{\mathbf{b}}
 $$
+
 
 
 #### The Deep Meaning of $A\mathbf{x} = \mathbf{b}$
