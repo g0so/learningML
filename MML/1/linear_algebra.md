@@ -227,6 +227,7 @@ $$
 A^{-1} = \frac{1}{a_{11}a_{22} - a_{12}a_{21}} \begin{bmatrix} a_{22} & -a_{12} \\ -a_{21} & a_{11} \end{bmatrix}
 $$
 
+
 * **Key Insight:** That denominator $(a_{11}a_{22} - a_{12}a_{21})$ is called the **determinant**. If the determinant is $0$, you cannot divide by it, meaning the matrix is singular (has no inverse).
 
 #### B. The Transpose ($A^\top$)
@@ -270,6 +271,7 @@ x_3
 2
 \end{bmatrix}}_{\mathbf{b}}
 $$
+
 
 #### The Deep Meaning of $A\mathbf{x} = \mathbf{b}$
 When you multiply matrix $A$ by vector $\mathbf{x}$, you are not just doing arithmetic. You are creating a **linear combination of the columns of $A$**. Specifically, $x_1$ scales the first column, $x_2$ scales the second column, and $x_3$ scales the third column, and you add them together to reach the target vector $\mathbf{b}$.
