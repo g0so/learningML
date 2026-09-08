@@ -255,22 +255,21 @@ $$
 Using matrix multiplication rules, this entire system collapses into a single, elegant equation:
 
 $$
-\begin{bmatrix}
+\underbrace{\begin{bmatrix}
 2 & 3 & 5 \\
 4 & -2 & -7 \\
 9 & 5 & -3
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix}}_{A}
+\underbrace{\begin{bmatrix}
 x_1 \\
 x_2 \\
 x_3
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix}}_{\mathbf{x}} = 
+\underbrace{\begin{bmatrix}
 1 \\
 8 \\
 2
-\end{bmatrix}
+\end{bmatrix}}_{\mathbf{b}}
 $$
 
 
