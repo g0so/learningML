@@ -114,16 +114,34 @@ Two ways to write this:
 
 #### A. Vector Form (Equation 2.9)
 
-```math
-\(x_1 \begin{bmatrix}  a_{11} \\  \vdots \\  a_{m1}  \end{bmatrix} +  x_2 \begin{bmatrix}  a_{12} \\  \vdots \\  a_{m2}  \end{bmatrix} + \dots +  x_n \begin{bmatrix}  a_{1n} \\  \vdots \\  a_{mn}  \end{bmatrix} =  \begin{bmatrix}  b_1 \\  \vdots \\  b_m  \end{bmatrix} \%\%\)MAGIT_PARSER_PROTECT%%```
+$$
+x_1 \begin{bmatrix} a_{11} \\ \vdots \\ a_{m1} \end{bmatrix} + 
+x_2 \begin{bmatrix} a_{12} \\ \vdots \\ a_{m2} \end{bmatrix} + \dots + 
+x_n \begin{bmatrix} a_{1n} \\ \vdots \\ a_{mn} \end{bmatrix} = 
+\begin{bmatrix} b_1 \\ \vdots \\ b_m \end{bmatrix}
+$$
 
 * **Meaning:** This frames the problem as a linear combination. We are asking: *"What weights ($x_1, \dots, x_n$) do I need to multiply these column vectors by so that they add up to the target vector $\mathbf{b}$?"*
 
 #### B. Matrix Form (Equation 2.10)
 
-```math
-\(\begin{bmatrix} a_{11} & \cdots & a_{1n} \\ \vdots & \ddots & \vdots \\ a_{m1} & \cdots & a_{mn} \end{bmatrix} \begin{bmatrix} x_1 \\ \vdots \\ x_n \end{bmatrix} =  \begin{bmatrix} b_1 \\ \vdots \\ b_m \end{bmatrix} \%\%\)MAGIT_PARSER_PROTECT%%```
-
+$$
+\begin{bmatrix}
+a_{11} & \cdots & a_{1n} \\
+\vdots & \ddots & \vdots \\
+a_{m1} & \cdots & a_{mn}
+\end{bmatrix}
+\begin{bmatrix}
+x_1 \\
+\vdots \\
+x_n
+\end{bmatrix} = 
+\begin{bmatrix}
+b_1 \\
+\vdots \\
+b_m
+\end{bmatrix}
+$$
 
 * **Meaning:** This is the famous $A\mathbf{x} = \mathbf{b}$ format.
   * $A$ is the $m \times n$ **coefficient matrix** (contains all the $a_{ij}$ values).
