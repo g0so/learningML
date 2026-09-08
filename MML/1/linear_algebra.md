@@ -175,7 +175,7 @@ $$
 * **Crucial Warning 1 (Not Element-wise):** Matrix multiplication is not just multiplying elements in the same positions ($c_{ij} \neq a_{ij}b_{ij}$). Element-wise multiplication is a different operation called the **Hadamard product**.
 * **Crucial Warning 2 (Not Commutative):** In regular algebra, $3 \times 4 = 4 \times 3$. In matrix algebra, $AB \neq BA$. Refer to example 2.3 in the textbook which shows that (or below), not only can the results be entirely different numbers, but $AB$ and $BA$ might not even have the same dimensions (e.g., $2 \times 2$ vs. $3 \times 3$), or one multiplication might be mathematically undefined.
 ![alt text](image.png)
-* 
+
 #### C. Scalar Multiplication
 * **Rule:** A scalar is just a single number (e.g., $\lambda \in \mathbb{R}$).
 * **How:** Multiplying a matrix by a scalar scales every single element inside the matrix by that number. 
@@ -215,7 +215,13 @@ $$
 * **Existence:** Not all matrices have an inverse!
   * If an inverse exists, the matrix is called **regular, invertible, or nonsingular**.
   * If it does not exist, it is called **singular or noninvertible**.
-* **The $2 \times 2$ Case:** For a $2 \times 2$ matrix $A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}$, the inverse is found by swapping the diagonal elements, negating the off-diagonal elements, and dividing by $(a_{11}a_{22} - a_{12}a_{21})$:
+* **The $2 \times 2$ Case:** For a $2 \times 2$ matrix $A$ represented by:
+
+$$
+A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+$$
+
+The inverse is found by swapping the diagonal elements, negating the off-diagonal elements, and dividing by $(a_{11}a_{22} - a_{12}a_{21})$:
 
 $$
 A^{-1} = \frac{1}{a_{11}a_{22} - a_{12}a_{21}} \begin{bmatrix} a_{22} & -a_{12} \\ -a_{21} & a_{11} \end{bmatrix}
